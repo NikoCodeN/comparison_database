@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+body{
+  background:  rgba(163, 157, 157, 0.527);
+}
+nav{
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  left: 0;
+  width: 150px;
+  /* width: 280px; */
+  background: #fff;
+  overflow: hidden;
+  transition: 1s;
+}
+nav:hover{
+  width: 270px;
+  transition: 1s;
+}
+.logo{
+  text-align: center;
+  display: flex;
+  margin: 20px 0 0 20px;
+  padding-bottom: 2rem;
+}
+
+.logo img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.logo span{
+  font-weight: bold;
+  padding-left: 15px;
+  font-size: 20px;
+  text-transform: uppercase;
+ 
+}
+.texnav{
+  position: relative;
+  width: 280px;
+  font-size: 18px;
+  color: rgb(86, 80, 80);
+  display: table;
+  padding: 10px;
+}
+nav .fas{
+  position: relative;
+  width: 100px;
+  height: 40px;
+  top: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+.nav-item{
+  position: relative;
+  margin-left: 3px;
+  
+  
+}
+.texnav:hover{
+  background: #eee;
+}
+.texnav:hover i{
+  color: #8fae9d;
+  transition: 0.5s;
+}
+
+.contenedor{
+  display: flex;
+}
+
+/*  Section */
+
+h1{
+  margin: 10px 15px;
+  
+}
+.main-top {
+  display: flex;
+  width: 100%;
+}
+.main-top i{
+  position: absolute;
+  right: 0;
+  margin: 20px 30px;
+  color: rgb(182, 171, 171);
+  cursor: pointer;
+}
+
+table caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+  }
+
+  table tr {
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    padding: .35em;
+  }
+  
+  table th,
+  table td {
+    padding: .625em;
+    text-align: center;
+  }
+  
+  table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    background-color: tomato;
+  }
+  
+  @media screen and (max-width: 600px) {
+    table {
+      border: 0;
+    }
+  
+    table caption {
+      font-size: 1.3em;
+    }
+    
+    table thead {
+      border: none;
+      clip: rect(0 0 0 0);
+      height: 1px;
+      margin: -1px;
+      overflow: hidden;
+      padding: 0;
+      position: absolute;
+      width: 1px;
+    }
+    
+    table tr {
+      border-bottom: 3px solid #ddd;
+      display: block;
+      margin-bottom: .625em;
+    }
+    
+    table td {
+      border-bottom: 1px solid #ddd;
+      display: block;
+      font-size: .8em;
+      text-align: right;
+    }
+    
+    table td::before {
+    
+      content: attr(data-label);
+      float: left;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+    
+    table td:last-child {
+      border-bottom: 0;
+    }
+  }
+      
+table{
+ margin: 1em 1em 2em 3.5em;
+ width: 80%;
+ padding: 0.3em;
+ border-radius: 10px ; 
+ caption-side: top;
+ text-align: center;
+ border-collapse: collapse;
+ table-layout: auto;  
+}
+
+
+.boton{
+  text-decoration: none;
+  padding: 10px;
+  margin: 1em ;
+  font-weight: 300;
+  font-size: 20px;
+  color: white;
+  background-color: tomato;
+  border-radius: 6px;
+  border: 2px solid ;
+  cursor: pointer;
+
+}
+
+.botonA {
+  font-size: 15px;
+  color: white;
+  background-color: tomato;
+  border-radius: 4px;
+  border: 2px solid ;
+  padding: 2px ;
+  cursor: pointer;
+
+}
+
+.botonE{
+  font-size: 13px;
+  color: white;
+  background-color: tomato;
+  border-radius: 4px;
+  border: 2px solid ;
+  padding: 2px ;
+  cursor: pointer;
+
+}
+.boton:hover{
+  background: rgba(214, 196, 196, 0.767);
+}
+.botonA:hover{
+  background: rgba(214, 196, 196, 0.767);
+}
+.botonE:hover{
+  background: rgba(216, 201, 201, 0.767);
+}
+.cerrar{
+  font-size: 1.5rem;
+}
+
+

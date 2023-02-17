@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base de datos sena</title>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <div class="contenedor">
+            <h1>Base de datos sena</h1>
+            <p>¡Bienvenido!</p>
+            <!--Login-->
+            <form action="php/Validar.php"  method="POST">
+                    <input type="text" placeholder="Correo Electronico" name="Email">
+                    <input type="password" placeholder="Contraseña" name="Contraseña">
+                    <button>Iniciar Sesión</button>
+            </form>
+    <div class="not-member">
+      No eres miembro? <a href="registrar.php">Registrate ahora</a>
+        </div>
+    </main>
+</body>
+</html>

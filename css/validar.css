@@ -1,0 +1,21 @@
+body{
+    background-color: gray;
+}
+
+.box{
+    margin-left: 600px;
+    margin-top: 260px;
+    text-align: center;
+    background-color: white;
+    width: 550px;
+    height: 200px;
+    border-radius: 50px;
+}
+.box2{
+    padding: 20px;
+}
+.boton{
+    background-color: tomato;
+    color: beige;
+    border-radius: 10px;
+}

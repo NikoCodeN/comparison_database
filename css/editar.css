@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+  
+}
+body{
+  background:  rgba(163, 157, 157, 0.527);
+}
+nav{
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  left: 0;
+  width: 150px;
+  /* width: 280px; */
+  background: #fff;
+  overflow: hidden;
+  transition: 1s;
+}
+nav:hover{
+  width: 270px;
+  transition: 1s;
+}
+.logo{
+  text-align: center;
+  display: flex;
+  margin: 20px 0 0 20px;
+  padding-bottom: 2rem;
+}
+
+.logo img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.logo span{
+  font-weight: bold;
+  padding-left: 15px;
+  font-size: 20px;
+  text-transform: uppercase;
+ 
+}
+.texnav{
+  position: relative;
+  width: 280px;
+  font-size: 18px;
+  color: rgb(86, 80, 80);
+  display: table;
+  padding: 10px;
+}
+nav .fas{
+  position: relative;
+  width: 100px;
+  height: 40px;
+  top: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+.nav-item{
+  position: relative;
+  margin-left: 3px;
+  
+  
+}
+.texnav:hover{
+  background: #eee;
+}
+.texnav:hover i{
+  color: #8fae9d;
+  transition: 0.5s;
+}
+
+.contenedor{
+  display: flex;
+}
+
+/*  Section */
+
+h1{
+  margin: 10px 15px;
+  
+}
+.main-top {
+  display: flex;
+  width: 100%;
+}
+.main-top i{
+  position: absolute;
+  right: 0;
+  margin: 20px 30px;
+  color: rgb(110, 109, 109);
+  cursor: pointer;
+}
+
+.contenedor1{
+    width: 500px;
+    height: 700px;
+    padding: 2rem 0 1rem 0;
+    margin: 5em 0 0 5em;
+    background: #fff;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+  }
+  h1{
+    font-size: 2rem;
+    color: #07001f;
+    text-align: center;
+  }
+  
+  form input{
+    width: 70%;
+    outline: none;
+    border: none;
+    background: rgba(163, 157, 157, 0.527);
+    padding: 12px 14px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    margin-left: 60px;
+  }
+ 
+  .boton{
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    padding: 8px 0;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 80%;
+    background: tomato;
+    color: #fff;
+    cursor: pointer;
+  }
+  .boton:hover{
+    background: rgba(122, 30, 30, 0.767);
+  }
+
+  label {
+    margin-left: 50px;
+  }
+  p {
+    margin-left: 50px;
+  }
+
+.cerrar{
+    font-size: 1.5rem;
+}
+
+
+ 
+    

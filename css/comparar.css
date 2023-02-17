@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  overflow:hidden;
+}
+body{
+  background:  rgba(163, 157, 157, 0.527);
+}
+nav{
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  height: 100vh;
+  left: 0;
+  width: 150px; 
+  background: #fff;
+  overflow: hidden;
+  transition: 1s;
+}
+nav:hover{
+  width: 270px;
+  transition: 1s;
+}
+.logo{
+  text-align: center;
+  display: flex;
+  margin: 20px 0 0 20px;
+  padding-bottom: 2rem;
+}
+
+.logo img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.logo span{
+  font-weight: bold;
+  padding-left: 15px;
+  font-size: 20px;
+  text-transform: uppercase;
+ 
+}
+.texnav{
+  position: relative;
+  width: 280px;
+  font-size: 18px;
+  color: rgb(86, 80, 80);
+  display: table;
+  padding: 10px;
+}
+nav .fas{
+  position: relative;
+  width: 100px;
+  height: 40px;
+  top: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+.nav-item{
+  position: relative;
+  margin-left: 3px;
+  
+  
+}
+.texnav:hover{
+  background: #eee;
+}
+.texnav:hover i{
+  color: rgb(128, 128, 128);
+  transition: 0.5s;
+}
+
+.contenedor{
+  display: flex;
+}
+
+/*  Section */
+
+h1{
+  margin: 10px 15px;
+  
+}
+.main-top {
+  display: flex;
+  width: 80%;
+  
+}
+.main-top i{
+  position: absolute;
+  right: 0;
+  margin: 20px 30px;
+  color: rgb(110, 109, 109);
+  cursor: pointer;
+}
+table caption {
+  font-size: 1em;
+  margin: .3em 0 .5em;
+}
+
+table tr {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+
+}
+
+table th,
+table td {
+  padding: .300em;
+  text-align: center;
+}
+
+table th {
+  font-size: .85em;
+  text-transform: uppercase;
+  background-color: gray;
+  position: sticky;
+ 
+}
+
+table {
+  display: block;
+  width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+tr { 
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0.5em 0;
+  border: 1px solid rgba(3,3,3,0.2);
+}
+td, th {
+  flex: 1 1 100px;
+  border: 0.5px solid rgba(3,3,3,0.2);
+}
+}
+
+.botonA{
+  font-size: 1.1rem;
+  margin-top: 1em;
+  padding: 8px 162px;
+  border-radius: 1px;
+  outline: none;
+  border: none;
+  background: tomato;
+  color: #fff;
+  cursor: pointer;
+  margin: 0 0 0 5px;
+ 
+}
+.botonX{
+  background-color: tomato;
+  font-size: 20px;
+  color: white;
+  border-color: white;
+  border-radius: 6px;
+  margin-left: 10px;
+}
+.botonA:hover{
+  background: rgba(122, 30, 30, 0.767);
+}
+.cerrar{
+  font-size: 1.5rem;
+}
+.parrafo{
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+h1.base{
+  font-size: 30px;
+}
+.botonC{
+  background-color: tomato;
+  font-size: 20px;
+  color: white;
+  border-color: white;
+  border-radius: 6px;
+  margin-left: 450px;
+}
+.botonB{
+  background-color: tomato;
+  font-size: 20px;
+  color: white;
+  border-color: white;
+  border-radius: 6px;
+  margin-left: 10px;
+}
+
+
+.row{
+  max-height: 850px;
+  margin-left: 5px;
+  overflow-y: scroll;
+}
+table{
+  overflow-x: scroll;
+}
